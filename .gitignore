@@ -1,0 +1,10 @@
+*.o
+*.d
+
+rust_icon.cpp
+rust_icon.d
+rust_icon.h
+rust_icon.o
+
+target/*
+Cargo.lock

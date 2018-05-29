@@ -1,13 +1,13 @@
 snapshots += Helloworld::App::Snapshot
-snapshot_headers += apps/hello_world/app.h
+snapshot_headers += apps/rust-hello-world/app.h
 
-app_objs += $(addprefix apps/hello_world/,\
+app_objs += $(addprefix apps/rust-hello-world/,\
   app.o\
   hello_controller.o\
   hello_view.o\
 )
 
-i18n_files += $(addprefix apps/hello_world/,\
+i18n_files += $(addprefix apps/rust-hello-world/,\
   base.de.i18n\
   base.en.i18n\
   base.es.i18n\
@@ -15,4 +15,4 @@ i18n_files += $(addprefix apps/hello_world/,\
   base.pt.i18n\
 )
 
-app_images += apps/hello_world/helloworld_icon.png
+app_images += apps/rust-hello-world/rust_icon.png

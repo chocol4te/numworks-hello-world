@@ -1,6 +1,6 @@
 #include "app.h"
 #include "apps/apps_container.h"
-#include "helloworld_icon.h"
+#include "rust_icon.h"
 #include "apps/i18n.h"
 #include <assert.h>
 
@@ -15,7 +15,7 @@ I18n::Message App::Descriptor::upperName() {
 }
 
 const Image * App::Descriptor::icon() {
-  return ImageStore::HelloworldIcon;
+  return ImageStore::RustIcon;
 }
 
 App::Snapshot::Snapshot()

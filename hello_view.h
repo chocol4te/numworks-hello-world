@@ -18,6 +18,7 @@ private:
   BufferTextView m_bufferTextView;
   int m_color;
   KDColor m_kdcolor;
+  int32_t test_int;
 };
 
 }

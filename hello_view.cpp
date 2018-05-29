@@ -2,6 +2,8 @@
 
 #include "apps/i18n.h"
 
+extern "C" char* rust_hello();
+
 namespace Helloworld {
 
 HelloView::HelloView() :
@@ -10,7 +12,7 @@ HelloView::HelloView() :
   m_color(3),
   m_kdcolor(Palette::GreyWhite)
 {
-  m_bufferTextView.setText(I18n::translate(I18n::Message::HelloApp));
+  m_bufferTextView.setText(rust_hello());
   m_bufferTextView.setFrame(KDRect(0, 0, bounds().width(), bounds().height()));
 }
 

@@ -1,10 +1,10 @@
-# numworks-hello-world
+# rust-hello-world
 
-This is a sample third-party app for the NumWorks calculator.
+>This is a sample app for the NumWorks calculator, written in Rust.
 
 ## Getting started
 
 ```
-git clone https://github.com/boricj/numworks-hello-world.git apps/hello_world
-make PLATFORM=simulator EPSILON_APPS='hello_world settings'
+git clone https://github.com/chocol4te/rust-hello-world.git apps/hello_world
+make PLATFORM=simulator EPSILON_APPS='rust-hello-world settings'
 ```
